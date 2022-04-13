@@ -1,0 +1,97 @@
+.cardcarousel {
+    display: block;
+    background: none;
+    position: relative;
+    height: 350px;
+    border: 1px solid black;
+    width: 350px;
+    margin: 100px auto 0;
+    &.paused {
+      .card {
+        transition: none;
+      }
+    }
+  }
+  .card {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    margin-left: -111px;
+    height: 145px;
+    width: 222px;
+    z-index: 10;
+    transition: all 2s ease;
+    &.left {
+      height: 75px;
+      width: 120px;
+      left: -40px;
+      margin-left: 0;
+      top: 50%;
+      z-index: 5;
+      transition: all 2s ease;
+    }
+    &.right {
+      height: 75px;
+      width: 120px;
+      left: 270px;
+      margin-left: 0;
+      top: 50%;
+      z-index: 0;
+      transition: all 2s ease;
+    }
+  }
+  
+  #item1{
+    background: blue;
+  }
+  
+  #item2{
+    background: yellow;
+  }
+  
+  #item3{
+    background: red;
+  }
+  
+  .pause, .play {
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 350px;
+  }
+  
+  .cardcarousel:focus {
+    .entertopause {
+      display: inline-block;
+    }
+    
+    &.paused {
+      .entertoplay {
+        display: inline-block;
+      }
+      .entertopause {
+        display: none;
+      }
+    }
+  }
+  
+  .cardcarousel:hover {
+    .clicktopause {
+      display: inline-block;
+    }
+    .entertopause {
+      display: none;
+    }
+    &.paused {
+      .clicktoplay {
+        display: inline-block;
+      }
+      .entertoplay {
+        display: none;
+      }
+      .clicktopause {
+        display: none;
+      }
+    }
+  }
