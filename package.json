@@ -1,0 +1,23 @@
+{
+  "name": "new-final-portfolio",
+  "version": "1.0.0",
+  "description": "My Final Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William7786/New-Final-Portfolio.git"
+  },
+  "author": "William Fyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/William7786/New-Final-Portfolio/issues"
+  },
+  "homepage": "https://github.com/William7786/New-Final-Portfolio#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^18.0.0"
+  }
+}
