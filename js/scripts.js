@@ -49,3 +49,40 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+$(document).ready(function(){
+    flag=1;
+     $(".next").click(function(){
+        if(flag==0)
+         {
+             $("#first").css("z-index","999");
+             $("#second").css("z-index","9");
+             $("#third").css("z-index","9");
+             $("#first").css("transform","translateX(0px) scale(1.5)");
+             $("#second").css("transform","translateX(-100px) scale(1)");
+             $("#third").css("transform","translateX(100px)");
+             flag=1;
+         }
+         else if(flag==1)
+         {
+             $("#third").css("z-index","999");
+             $("#second").css("z-index","9");
+             $("#first").css("z-index","9");
+             $("#third").css("transform","translateX(0px) scale(1.5)");
+             $("#first").css("transform","translateX(-100px) scale(1)");
+             $("#second").css("transform","translateX(100px)");
+             flag=2;
+         }
+         else if(flag==2)
+         {
+             $("#second").css("z-index","999");
+             $("#third").css("z-index","9");
+             $("#side1").css("z-index","9");
+             $("#second").css("transform","translateX(0px) scale(1.5)");
+             $("#third").css("transform","translateX(-100px) scale(1)");
+             $("#first").css("transform","translateX(100px)");
+             flag=0;
+         }
+     });
+   
+ });
