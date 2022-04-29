@@ -174,7 +174,7 @@ body{
  margin: 4px;
  cursor: pointer;
  padding: 1px;
- border-radius: 20px;
+ border-radius: 50%;
 }
 .close-first {
     transform: rotate(45deg);
@@ -194,33 +194,42 @@ body{
 .navigation-close:hover{
     opacity: 1;
     transform: rotate(90deg);
+    border-radius: 50%;
 }
 .logo img{
     height: 80px;
     position: absolute;
+    border-radius: 50%;
     top: 3%;
     left: 2.5%;
     opacity: .8;
     z-index: 2;
     cursor: pointer;
-    transition: all .4s ease;
+    /* transition: all .4s ease; */
+   
 }
+
 .logo img:hover{
+    
     opacity: 1;
-    transform: rotate(-45deg);
+    /* transform: rotate(-45deg); */
+  
+    
 }
 #navigation-bar img{
     height: 80px;
     position: absolute;
-    ;
+    
     top: 15%;
     left: 2.5%;
     opacity: .8;
     transition: all .4s ease;
+    border-radius: 50%;
 }
 #navigation-bar img:hover{
     opacity: 1;
     transform:rotate(-45deg);
+    border-radius: 50%;
 }
 .header-image img{
     height: 100vh;
