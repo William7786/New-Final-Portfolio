@@ -82,6 +82,16 @@ body{
     background-position: 50% 50%;
     display: block;
 }
+#particles1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: block;
+}
 #navigation-content{
     height: 100vh;
     width: 100%;
@@ -194,12 +204,12 @@ body{
 .navigation-close:hover{
     opacity: 1;
     transform: rotate(90deg);
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .logo img{
-    height: 80px;
+    height: 60px;
     position: absolute;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     top: 3%;
     left: 2.5%;
     opacity: .8;
@@ -217,19 +227,18 @@ body{
     
 }
 #navigation-bar img{
-    height: 80px;
+    height: 60px;
     position: absolute;
-    
     top: 15%;
     left: 2.5%;
     opacity: .8;
     transition: all .4s ease;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 #navigation-bar img:hover{
     opacity: 1;
     transform:rotate(-45deg);
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .header-image img{
     height: 100vh;
@@ -274,6 +283,7 @@ body{
     font-family: poppins;
     font-size: 57px;
 }
+
 
 
 .header-content .secondline{
@@ -492,7 +502,7 @@ body{
 }
 .about-second-line{
     opacity: .8;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 200;
 }
 .about-main{
@@ -507,9 +517,10 @@ body{
 }
 .about-img img{
     width: 100%;
-    height:380px;
+    height: 400px;
     padding: 30px;
     border-radius: 40px;
+    
 }
 .about-img {
     width: 550px;
@@ -517,6 +528,8 @@ body{
     padding: 30px;
     padding-top: 10px;
     border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #about-content a{
@@ -1089,7 +1102,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
+    background: url(../images/Marsh.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -1477,7 +1490,7 @@ For devices with smaller width like mobile phone
     }
     .about-second-line{
         opacity: .8;
-        font-size: 15px;
+        font-size: 21px;
     }
     .about-main{
         display: flex;
@@ -1931,7 +1944,7 @@ for tabs and large phones
     }
     .about-second-line{
         opacity: .8;
-        font-size: 24px;
+        font-size: 21px;
     }
     .about-main{
         display: flex;
@@ -2318,7 +2331,7 @@ for tabs and large phones
      }
     .about-second-line{
         opacity: .8;
-        font-size: 28px;
+        font-size: 21px;
         font-weight: 200;
     }
     .cv a button{
