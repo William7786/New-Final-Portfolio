@@ -1272,7 +1272,7 @@ form button:hover{
     right:-150px;
     top:40%;
     z-index: 4;
-    color:black;
+    color:rgb(255, 255, 255);
     transition:all .4s ease;
 }
 .color-changer-active{
@@ -1282,13 +1282,14 @@ form button:hover{
 .color-panel{
     height: 45px;
     cursor: pointer; 
-    width:45px;
+    width: 59px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
-    background: whitesmoke;
+    margin-top: 111%;
+    background:rgba(255, 255, 255, 0.623);
 }
 .color-panel img{
     height: 40px; 
@@ -1358,7 +1359,7 @@ form button:hover{
     height:auto;
     width:150px;
     padding: 10px;
-    background: whitesmoke;
+    background:rgba(255, 255, 255, 0.623);
     font-family: poppins;
     font-size: 16px;
     display: flex;
@@ -1366,6 +1367,7 @@ form button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top:142px;
 }
 .color-selector li{
   list-style: none;
