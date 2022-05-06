@@ -190,3 +190,6 @@ $(function(){
   $('.navigation-close').hover(cursorhover,cursor);
 
 })
+// window.onload = function() {
+//   document.body.className += " loaded";
+// }

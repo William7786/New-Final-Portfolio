@@ -350,7 +350,10 @@ body{
     justify-content: center;
     flex-direction: column;
     font-family:poppins;
+    
 }
+
+
 .navigation-links a{
     padding:10px;
     text-decoration: none;
@@ -386,6 +389,26 @@ body{
     opacity: 1;
     letter-spacing: 10px;
 }
+
+/* #fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+} */
+/* .navigation-links p {
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  } */
+
+body.loaded .fadein {
+    opacity: 1;
+}
+
 .contact{
     display: flex;
     position: absolute;
@@ -1386,7 +1409,7 @@ For devices with smaller width like mobile phone
 
 @media only screen and (max-width: 550px){
     .header-content{
-        height: 100vh;
+        height: 80vh;
         width: 100%;
         float: left;
         display: flex;
